@@ -1,0 +1,50 @@
+
+/* Inline CSS styling */
+* {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.box {
+    background-color: aqua;
+    height: auto;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.Game {
+    width: 500px;
+    height: 300px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.bug {
+    position: absolute;
+    background-image: url('bug.png');
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+h1 {
+    color: #333;
+}
+
+#score {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#buttons {
+    margin-top: 20px;
+}
+
+button {
+    margin: 0 5px;
+    padding: 10px 20px;
+}
